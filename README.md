@@ -33,16 +33,13 @@ src/main/java/br/com/alunoonline/api/
  ├── service/       # Contém as classes AlunoService e ProfessorService (Regras de negócio)
  ├── repository/    # Interfaces AlunoRepository e ProfessorRepository (Acesso aos dados)
  └── model/         # Entidades JPA (Aluno e Professor) que mapeiam o banco
+
 Principais Rotas Implementadas:
-POST /alunos e POST /professores: Criação de novos registros.
-
-GET /alunos e GET /professores: Listagem de todos os cadastros.
-
-GET /{id}: Busca de um registro específico pelo ID.
-
-PUT /{id}: Atualização completa de um cadastro existente.
-
-DELETE /{id}: Remoção de um registro do banco de dados.
+- POST /alunos e POST /professores: Criação de novos registros.
+- GET /alunos e GET /professores: Listagem de todos os cadastros.
+- GET /alunos/{id} e GET /professores/{id}: Busca de um registro específico pelo ID.
+- PUT /alunos/{id} e PUT /professores/{id}: Atualização completa de um cadastro existente.
+- DELETE /alunos/{id} e DELETE /professores/{id}: Remoção de um registro do banco de dados.
 ```
 
 ## 🛠️ Tecnologias Utilizadas
