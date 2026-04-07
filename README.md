@@ -57,8 +57,11 @@ Maven (Gerenciamento de dependências)
 **Criando um Aluno (POST):**
 <img width="1919" height="1029" alt="CriarAlunoDepois" src="https://github.com/user-attachments/assets/138d70b5-b1f9-43be-a29d-bc9ce0af3d89" />
 
-**Listando Professores (GET):**
+**Listando Todos Professores (GET):**
 <img width="1919" height="1034" alt="ListarTodosProfessores" src="https://github.com/user-attachments/assets/6a18a6d1-0d03-49d7-9497-156db2bc7ede" />
+
+**Listando Aluno Por Id(GET):**
+<img width="1919" height="1030" alt="BuscarAlunoPorId" src="https://github.com/user-attachments/assets/a2b5d56e-d442-4711-a7a3-64c8a5aabd30" />
 
 
 **Atualizando um Aluno (PUT):**
